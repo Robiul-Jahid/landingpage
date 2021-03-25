@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+html{
+ scroll-behavior: smooth;
+
+}
+body{
+ margin: 0;
+ padding: 0;
+ font-size: 18px;
+ font-family: poppins;
+ line-height: 20px;
+ color: #b1b4bd;
+ background-color: #323a45;
+}
+
+a{
+ color: #b1b4bd;
+ font-weight: 500;
+}
+a:hover{
+ color: #e74c3c;
+}
+.header-background{
+ position: static;
+ display: block;
+ overflow: visible;
+ top: 0;
+ height: auto;
+ min-height: 750px;
+ margin-bottom: 50px;
+ padding-bottom: 70px;
+background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)), url(./images/Bridge.jpg) ;
+background-position: center;
+background-size: cover;
+
+}
+.sticky-nav{
+ position: sticky;
+ background-color: rgba(12,32,55,0.7);
+}
+.navbar-brand{
+ font-size: 2.3rem;
+ color: white;
+}
+.heading{
+ font-size: 5rem;
+ font-weight: bold;
+ line-height: 1.4;
+ text-align: center;
+ color: darkorange;
+ margin-top: 180px;
+ margin-bottom: 10px;
+}
+
+{
+ min-height: 750px;
+  position: static;
+ display: block;
+ overflow: visible;
+ top: 0;
+ height: auto;
+ min-height: 750px;
+ margin-bottom: 50px;
+ padding-bottom: 70px;
+background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)), url(./images/Bridge.jpg) ;
+background-position: center;
+background-size: cover;
+}
