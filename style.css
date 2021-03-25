@@ -31,7 +31,7 @@ a:hover{
  top: 0;
  height: auto;
  min-height: 750px;
- margin-bottom: 50px;
+ 
  padding-bottom: 70px;
 background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)), url(./images/Bridge.jpg) ;
 background-position: center;
@@ -70,3 +70,28 @@ background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)), url(./ima
 background-position: center;
 background-size: cover;
 } */
+.column-left{
+ min-height: 750px;
+ background-image: linear-gradient(rgba(0,0,0, 0.55),rgba(0, 0, 0, 0.45)), url(./images/War.jpg);
+ 
+ background-position: 0px 0px, 100% 50%;
+ background-size: cover;
+}
+.column-right .section-title{
+margin-top: 80px;
+padding: 5rem 2rem 0 5rem;
+font-size: 2.8rem;
+color: #b1b4bd;
+font-weight: 500;
+
+}
+.column-right .paragraph{
+margin-top: 15px;
+padding: 1rem 5rem 1rem 5rem;
+font-size: 1.1rem;
+text-align: justify;
+line-height: 1.4;
+}
+.column-right{
+ background-color: rgba(0, 0, 0, 0.363);
+}
